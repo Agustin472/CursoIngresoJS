@@ -6,6 +6,13 @@ function mostrar()
 	var sexoIngresado;
 	sexoIngresado = prompt("ingrese f ó m .");
 
+	
+
+	while(sexoIngresado != "f" && sexoIngresado != "m")
+	{
+		sexoIngresado = prompt("error reingrese");
+	}
+
 
 
 	txtIdSexo.value=sexoIngresado;

@@ -7,9 +7,19 @@ function mostrar()
 	var contador;
 	var acumulador;
 	var respuesta;
+	var numeroIngresado;
 	contador=0;
 	acumulador=0;
 	respuesta='si';
+
+	while(respuesta == "si")
+	{
+		numeroIngresado = prompt("ingrese numeros");
+		numeroIngresado = parseInt(numeroIngresado);
+		acumulador = acumulador + numeroIngresado;
+		respuesta = prompt("desea continuar");
+		contador++;
+	}
 
 
 	txtIdSuma.value=acumulador;

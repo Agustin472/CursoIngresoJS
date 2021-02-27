@@ -1,6 +1,36 @@
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");
+    var numero
+	
+    //math.floor
+    numero = parseInt(numero);
 
-}//FIN DE LA FUNCIÓN
+	numero = Math.round(Math.random() * (9 - 1) + 1);
+
+
+	
+	if(numero > 8)
+        
+
+	{
+			alert(" excelente " + numero); 
+	}
+
+	    {if(numero > 3) 
+
+
+		{
+			alert(" aprobo " + numero);
+		} 
+
+		else
+		{ 
+			
+		{
+			alert(" Vamos, la proxima se puede " + numero );
+		}
+
+
+       	}
+       	}
+}
